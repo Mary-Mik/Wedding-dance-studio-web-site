@@ -76,12 +76,14 @@ h1, h2, h3, h4, h5, h6 {
 .four-features {
     background-color: #583fa8;
     border-radius: 8px;
+    
     /*	margin: 30px 35px;*/
 }
 
-.four-features.four-features-left-bottom {
-    margin: 0 35px 30px 0;
-}
+    .four-features.four-features-left-bottom {
+        margin: 0 35px 30px 0;
+
+    }
 
 .four-features.four-features-right-bottom {
     margin: 0 0 30px 35px;
