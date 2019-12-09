@@ -100,8 +100,16 @@ h1, h2, h3, h4, h5, h6 {
 .four-features img{
 	border-radius: 8px 8px 0 0;
 }
+#img-responsive-left-top {
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
 
 @media (min-width: 598px) and (max-width: 992px) {
+
+    #img-responsive-left-top {
+        padding: 0;
+    }
 	.four-features img {
 		border-radius: 0;
 		display: block;
@@ -1510,5 +1518,11 @@ nav {
     }
     .nav_icon {
         display: block;
+    }
+}
+@media all and (max-width: 601px ) {
+    h1 {
+        width: 80%;
+        font-size: 16px;
     }
 }
